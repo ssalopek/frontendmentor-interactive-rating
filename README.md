@@ -31,7 +31,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL [Link](https://github.com/ssalopek/frontendmentor-interactive-rating)
 - Live Site URL [Link](https://ssalopek.github.io/frontendmentor-interactive-rating/)
 
 ## My process
