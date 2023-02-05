@@ -12,49 +12,51 @@
   <title>Frontend Mentor | Interactive rating component</title>
 </head>
 <body>
-  <div class="rating-container">
-    <!-- Rating state start -->
-    <img src="./images/icon-star.svg" alt="Star icon" class="star">
-    <p class="title">How did we do?</p>
-    <p>
-      Please let us know how we did with your support request. All feedback is appreciated 
-      to help us improve our offering!
-    </p>
-    <div class="ratings">
-      <label>
-        <input type="radio" name="rating" value="1">1
-      </label>
-      <label>
-        <input type="radio" name="rating" value="2">2
-      </label>
-      <label>
-        <input type="radio" name="rating" value="3">3
-      </label>
-      <label>
-        <input type="radio" name="rating" value="4">4
-      </label>
-      <label>
-        <input type="radio" name="rating" value="5">5
-      </label>
+  <main>
+    <div class="rating-container">
+      <!-- Rating state start -->
+      <img src="./images/icon-star.svg" alt="Star icon" class="star">
+      <p class="title">How did we do?</p>
+      <p>
+        Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </p>
+      <div class="ratings">
+        <label>
+          <input type="radio" name="rating" value="1">1
+        </label>
+        <label>
+          <input type="radio" name="rating" value="2">2
+        </label>
+        <label>
+          <input type="radio" name="rating" value="3">3
+        </label>
+        <label>
+          <input type="radio" name="rating" value="4">4
+        </label>
+        <label>
+          <input type="radio" name="rating" value="5">5
+        </label>
+      </div>
+      <button class="btn-submit" onclick="getRatingValue()">Submit</button>
+      <span class="error hidden">Select some value first</span>
+      <!-- Rating state end -->
     </div>
-    <button class="btn-submit" onclick="getRatingValue()">Submit</button>
-    <span class="error hidden">Select some value first</span>
-    <!-- Rating state end -->
-  </div>
-
-  <div class="success-container hidden">
-    <!-- Thank you state start -->
-    <img src="./images/illustration-thank-you.svg" alt="Success image">
-    <p class="amount-content">
-      <!-- Placeholder for JS innerHtml text -->
-    </p>
-    <p class="title">Thank you!</p>
-    <p>
-      We appreciate you taking the time to give a rating. If you ever need more support, 
-      don’t hesitate to get in touch!
-    </p>
-    <!-- Thank you state end -->
-  </div>
+  
+    <div class="success-container hidden">
+      <!-- Thank you state start -->
+      <img src="./images/illustration-thank-you.svg" alt="Success image">
+      <p class="amount-content">
+        <!-- Placeholder for JS innerHtml text -->
+      </p>
+      <p class="title">Thank you!</p>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!
+      </p>
+      <!-- Thank you state end -->
+    </div>
+  </main>
   <script src="script.js"></script>
 </body>
 </html>
